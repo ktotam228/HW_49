@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="21" ignored="0" total="47" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103748" started-at="2017-11-02T08:45:57Z" finished-at="2017-11-02T08:47:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103748" started-at="2017-11-02T08:45:57Z" finished-at="2017-11-02T08:47:40Z">
+      <class name="core.ElementsValidationTestV">
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="103650" started-at="2017-11-02T01:45:57Z" data-provider="dp" finished-at="2017-11-02T01:47:40Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: test([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: test([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="6" started-at="2017-11-02T01:45:57Z" finished-at="2017-11-02T01:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@48c76607]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2501" started-at="2017-11-02T01:45:57Z" data-provider="dp" finished-at="2017-11-02T01:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: quotes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_quotes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(1421, 20)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(9, 49)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="167" started-at="2017-11-02T01:45:59Z" finished-at="2017-11-02T01:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:45:59Z" finished-at="2017-11-02T01:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@43599640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1612" started-at="2017-11-02T01:45:59Z" data-provider="dp" finished-at="2017-11-02T01:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Page title (Sing Up)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_title]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(151, 44)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 87)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="158" started-at="2017-11-02T01:46:01Z" finished-at="2017-11-02T01:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:01Z" finished-at="2017-11-02T01:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1f81aa00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1652" started-at="2017-11-02T01:46:01Z" data-provider="dp" finished-at="2017-11-02T01:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: current_location]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_current_location]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(178, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(910, 71)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="158" started-at="2017-11-02T01:46:03Z" finished-at="2017-11-02T01:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:03Z" finished-at="2017-11-02T01:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6b6776cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1780" started-at="2017-11-02T01:46:03Z" data-provider="dp" finished-at="2017-11-02T01:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: weather_icon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_weather_icon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(50, 50)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(957, 99)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="114" started-at="2017-11-02T01:46:05Z" finished-at="2017-11-02T01:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1765" started-at="2017-11-02T01:46:05Z" data-provider="dp" finished-at="2017-11-02T01:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: temperature]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_temperature]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(72, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(1015, 103)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:05Z" finished-at="2017-11-02T01:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1863d2fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="161" started-at="2017-11-02T01:46:06Z" finished-at="2017-11-02T01:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1892" started-at="2017-11-02T01:46:07Z" data-provider="dp" finished-at="2017-11-02T01:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_fn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(104, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 154)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:07Z" finished-at="2017-11-02T01:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1787bc24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="154" started-at="2017-11-02T01:46:09Z" finished-at="2017-11-02T01:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:09Z" finished-at="2017-11-02T01:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@544d57e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1785" started-at="2017-11-02T01:46:09Z" data-provider="dp" finished-at="2017-11-02T01:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: First name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_fname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(386, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 184)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="151" started-at="2017-11-02T01:46:10Z" finished-at="2017-11-02T01:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2111" started-at="2017-11-02T01:46:11Z" data-provider="dp" finished-at="2017-11-02T01:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label last name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_ln]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(103, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 154)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:11Z" finished-at="2017-11-02T01:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@55c53a33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="155" started-at="2017-11-02T01:46:13Z" finished-at="2017-11-02T01:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:13Z" finished-at="2017-11-02T01:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@53b7f657]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1835" started-at="2017-11-02T01:46:13Z" data-provider="dp" finished-at="2017-11-02T01:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Last name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_lname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(386, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 184)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="162" started-at="2017-11-02T01:46:15Z" finished-at="2017-11-02T01:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:15Z" finished-at="2017-11-02T01:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@797b0699]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1818" started-at="2017-11-02T01:46:15Z" data-provider="dp" finished-at="2017-11-02T01:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_ea]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(138, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 234)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="156" started-at="2017-11-02T01:46:17Z" finished-at="2017-11-02T01:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:17Z" finished-at="2017-11-02T01:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5a37d3ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1836" started-at="2017-11-02T01:46:17Z" data-provider="dp" finished-at="2017-11-02T01:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(386, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 264)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="158" started-at="2017-11-02T01:46:19Z" finished-at="2017-11-02T01:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:19Z" finished-at="2017-11-02T01:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@26df6e3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1750" started-at="2017-11-02T01:46:19Z" data-provider="dp" finished-at="2017-11-02T01:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_pn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(143, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 234)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="164" started-at="2017-11-02T01:46:21Z" finished-at="2017-11-02T01:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:21Z" finished-at="2017-11-02T01:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a3631f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1949" started-at="2017-11-02T01:46:21Z" data-provider="dp" finished-at="2017-11-02T01:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Phone_number]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_phone]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(386, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 264)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="156" started-at="2017-11-02T01:46:23Z" finished-at="2017-11-02T01:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2826" started-at="2017-11-02T01:46:23Z" data-provider="dp" finished-at="2017-11-02T01:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label radio male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_r_label_m]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(44, 23)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(366, 355)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:23Z" finished-at="2017-11-02T01:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6b58b9e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="113" started-at="2017-11-02T01:46:26Z" finished-at="2017-11-02T01:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="3077" started-at="2017-11-02T01:46:26Z" data-provider="dp" finished-at="2017-11-02T01:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Radio button Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_g_radio_01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(26, 26)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(326, 354)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:26Z" finished-at="2017-11-02T01:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@f14a7d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="156" started-at="2017-11-02T01:46:29Z" finished-at="2017-11-02T01:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:46:29Z" finished-at="2017-11-02T01:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@52e7a6b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2899" started-at="2017-11-02T01:46:29Z" data-provider="dp" finished-at="2017-11-02T01:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label radio female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_r_label_f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(66, 23)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(545, 355)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="154" started-at="2017-11-02T01:46:32Z" finished-at="2017-11-02T01:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:32Z" finished-at="2017-11-02T01:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@29a5f4e7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2781" started-at="2017-11-02T01:46:32Z" data-provider="dp" finished-at="2017-11-02T01:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Radio button Female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_g_radio_02]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(26, 26)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(505, 354)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="155" started-at="2017-11-02T01:46:35Z" finished-at="2017-11-02T01:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:35Z" finished-at="2017-11-02T01:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@79c97cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2119" started-at="2017-11-02T01:46:35Z" data-provider="dp" finished-at="2017-11-02T01:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label State]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_s]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(50, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 317)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="158" started-at="2017-11-02T01:46:37Z" finished-at="2017-11-02T01:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1752" started-at="2017-11-02T01:46:37Z" data-provider="dp" finished-at="2017-11-02T01:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Drop-down List State]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_state]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(340, 35)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(739, 347)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:37Z" finished-at="2017-11-02T01:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d9caaeb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="113" started-at="2017-11-02T01:46:39Z" finished-at="2017-11-02T01:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:39Z" finished-at="2017-11-02T01:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@42a15bdc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2815" started-at="2017-11-02T01:46:39Z" data-provider="dp" finished-at="2017-11-02T01:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label I agree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_cb_label]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(231, 30)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(357, 414)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="113" started-at="2017-11-02T01:46:42Z" finished-at="2017-11-02T01:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:46:42Z" finished-at="2017-11-02T01:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@44a59da3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2768" started-at="2017-11-02T01:46:42Z" data-provider="dp" finished-at="2017-11-02T01:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Checkbox terms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_checkbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(26, 26)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 419)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="111" started-at="2017-11-02T01:46:45Z" finished-at="2017-11-02T01:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2187" started-at="2017-11-02T01:46:45Z" data-provider="dp" finished-at="2017-11-02T01:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Image Facebook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_img_facebook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(60, 60)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(314, 478)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:45Z" finished-at="2017-11-02T01:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@27e47833]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="107" started-at="2017-11-02T01:46:47Z" finished-at="2017-11-02T01:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:46:47Z" finished-at="2017-11-02T01:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6f6745d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2168" started-at="2017-11-02T01:46:47Z" data-provider="dp" finished-at="2017-11-02T01:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Image Twitter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_img_twitter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(60, 60)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(382, 478)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="111" started-at="2017-11-02T01:46:49Z" finished-at="2017-11-02T01:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1966" started-at="2017-11-02T01:46:50Z" data-provider="dp" finished-at="2017-11-02T01:46:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Image Flickr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_img_flickr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(60, 60)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(451, 478)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:50Z" finished-at="2017-11-02T01:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@27508c5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="158" started-at="2017-11-02T01:46:52Z" finished-at="2017-11-02T01:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:52Z" finished-at="2017-11-02T01:46:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4f704591]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1792" started-at="2017-11-02T01:46:52Z" data-provider="dp" finished-at="2017-11-02T01:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Image Youtube]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_img_youtube]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(60, 60)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(520, 478)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="163" started-at="2017-11-02T01:46:54Z" finished-at="2017-11-02T01:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:54Z" finished-at="2017-11-02T01:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b5189ac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1758" started-at="2017-11-02T01:46:54Z" data-provider="dp" finished-at="2017-11-02T01:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Button Reset]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_reset_button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(104, 37)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(751, 494)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="162" started-at="2017-11-02T01:46:55Z" finished-at="2017-11-02T01:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:56Z" finished-at="2017-11-02T01:46:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e4d3ce5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1776" started-at="2017-11-02T01:46:56Z" data-provider="dp" finished-at="2017-11-02T01:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Button Submit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_submit_button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(118, 37)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(1006, 494)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="112" started-at="2017-11-02T01:46:57Z" finished-at="2017-11-02T01:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1767" started-at="2017-11-02T01:46:57Z" data-provider="dp" finished-at="2017-11-02T01:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Today's date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[timestamp]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(290, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(295, 551)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:57Z" finished-at="2017-11-02T01:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3ddc6915]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="114" started-at="2017-11-02T01:46:59Z" finished-at="2017-11-02T01:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:46:59Z" finished-at="2017-11-02T01:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@704deff2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1792" started-at="2017-11-02T01:46:59Z" data-provider="dp" finished-at="2017-11-02T01:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Copyright]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[copyright]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(250, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(585, 551)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="107" started-at="2017-11-02T01:47:01Z" finished-at="2017-11-02T01:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:47:01Z" finished-at="2017-11-02T01:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@379614be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2006" started-at="2017-11-02T01:47:01Z" data-provider="dp" finished-at="2017-11-02T01:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Os & browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[os_browser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(310, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(835, 551)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="112" started-at="2017-11-02T01:47:03Z" finished-at="2017-11-02T01:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1238" started-at="2017-11-02T01:47:03Z" data-provider="dp" finished-at="2017-11-02T01:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Conf Page Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_title]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(249, 44)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(320, 85)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:03Z" finished-at="2017-11-02T01:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@404bbcbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="154" started-at="2017-11-02T01:47:05Z" finished-at="2017-11-02T01:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:05Z" finished-at="2017-11-02T01:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e81f160]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2464" started-at="2017-11-02T01:47:05Z" data-provider="dp" finished-at="2017-11-02T01:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label first name conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_fn_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(104, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 154)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="110" started-at="2017-11-02T01:47:07Z" finished-at="2017-11-02T01:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:07Z" finished-at="2017-11-02T01:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1acaf3d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2220" started-at="2017-11-02T01:47:07Z" data-provider="dp" finished-at="2017-11-02T01:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: First name conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_fname_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 186)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="150" started-at="2017-11-02T01:47:10Z" finished-at="2017-11-02T01:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2288" started-at="2017-11-02T01:47:10Z" data-provider="dp" finished-at="2017-11-02T01:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label last name conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_ln_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(103, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 154)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:10Z" finished-at="2017-11-02T01:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6986852]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="110" started-at="2017-11-02T01:47:12Z" finished-at="2017-11-02T01:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:47:12Z" finished-at="2017-11-02T01:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1bab8268]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2252" started-at="2017-11-02T01:47:12Z" data-provider="dp" finished-at="2017-11-02T01:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Last name conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_lname_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 186)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="112" started-at="2017-11-02T01:47:14Z" finished-at="2017-11-02T01:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:47:14Z" finished-at="2017-11-02T01:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@a307a8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2308" started-at="2017-11-02T01:47:14Z" data-provider="dp" finished-at="2017-11-02T01:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label email conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_email_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(138, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 234)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="147" started-at="2017-11-02T01:47:17Z" finished-at="2017-11-02T01:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:17Z" finished-at="2017-11-02T01:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6e01f9b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2516" started-at="2017-11-02T01:47:17Z" data-provider="dp" finished-at="2017-11-02T01:47:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Email conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_email_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 266)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="150" started-at="2017-11-02T01:47:19Z" finished-at="2017-11-02T01:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2210" started-at="2017-11-02T01:47:20Z" data-provider="dp" finished-at="2017-11-02T01:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label phone conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_phone_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(143, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 234)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:20Z" finished-at="2017-11-02T01:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b9ed6da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="107" started-at="2017-11-02T01:47:22Z" finished-at="2017-11-02T01:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:22Z" finished-at="2017-11-02T01:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6c61a903]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2378" started-at="2017-11-02T01:47:22Z" data-provider="dp" finished-at="2017-11-02T01:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Phone_number conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_phone_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 266)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="112" started-at="2017-11-02T01:47:24Z" finished-at="2017-11-02T01:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:24Z" finished-at="2017-11-02T01:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@658c5a19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2301" started-at="2017-11-02T01:47:24Z" data-provider="dp" finished-at="2017-11-02T01:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label gender conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_gender_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(71, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 314)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="150" started-at="2017-11-02T01:47:27Z" finished-at="2017-11-02T01:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2283" started-at="2017-11-02T01:47:27Z" data-provider="dp" finished-at="2017-11-02T01:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Gender conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_gender_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 346)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:27Z" finished-at="2017-11-02T01:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@421e361]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="103" started-at="2017-11-02T01:47:29Z" finished-at="2017-11-02T01:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="1" started-at="2017-11-02T01:47:29Z" finished-at="2017-11-02T01:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@59d4cd39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2269" started-at="2017-11-02T01:47:29Z" data-provider="dp" finished-at="2017-11-02T01:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label state conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_state_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(50, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 314)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="151" started-at="2017-11-02T01:47:32Z" finished-at="2017-11-02T01:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2241" started-at="2017-11-02T01:47:32Z" data-provider="dp" finished-at="2017-11-02T01:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: State conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_state_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 346)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:32Z" finished-at="2017-11-02T01:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@389c4eb1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="115" started-at="2017-11-02T01:47:34Z" finished-at="2017-11-02T01:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2225" started-at="2017-11-02T01:47:34Z" data-provider="dp" finished-at="2017-11-02T01:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Label Terms? conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_f_label_terms_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(70, 24)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 394)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:34Z" finished-at="2017-11-02T01:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3fc79729]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="152" started-at="2017-11-02T01:47:36Z" finished-at="2017-11-02T01:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:36Z" finished-at="2017-11-02T01:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@34f6515b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="2293" started-at="2017-11-02T01:47:36Z" data-provider="dp" finished-at="2017-11-02T01:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Terms conf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_terms_conf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(10, 42)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(321, 426)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: <true>
+     but: was <false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.ElementsValidationTestV.test(ElementsValidationTestV.java:50)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="148" started-at="2017-11-02T01:47:39Z" finished-at="2017-11-02T01:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="bm" is-config="true" duration-ms="0" started-at="2017-11-02T01:47:39Z" finished-at="2017-11-02T01:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTestV.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b34fff9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="test" duration-ms="1241" started-at="2017-11-02T01:47:39Z" data-provider="dp" finished-at="2017-11-02T01:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Element: Button Back]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[confirmation.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[id_back_button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(120, 37)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[(746, 492)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="am" is-config="true" duration-ms="103" started-at="2017-11-02T01:47:40Z" finished-at="2017-11-02T01:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="ac()[pri:0, instance:core.ElementsValidationTestV@6a41eaa2]" test-instance-name="Element: Button Back" name="ac" is-config="true" duration-ms="89" started-at="2017-11-02T01:47:40Z" finished-at="2017-11-02T01:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- core.ElementsValidationTestV -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

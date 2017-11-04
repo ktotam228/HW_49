@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="core.ElementsValidationTestV">
+        <methods>
+          <include name="test" invocation-numbers="13 14 15 16 19 20 31 32 33 34 35 36 37 38 39 40 41 42 43 44"/>
+          <include name="bm"/>
+          <include name="ac"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- core.ElementsValidationTestV -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
